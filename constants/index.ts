@@ -83,6 +83,8 @@ export const PROJECTS = [
       "An autonomous AI system designed to act as a digital executive capable of managing tasks, automation, and intelligent decision making.",
     image: "/projects/project-1.png",
     link: "#",
+    github: "https://github.com/DivyeBhatnagar",
+    tech: ["Python", "AI Agents", "Automation"],
   },
   {
     title: "AI Executive System",
@@ -90,6 +92,8 @@ export const PROJECTS = [
       "An AI-powered automation system that can help manage workflows, tasks, and business operations.",
     image: "/projects/project-2.png",
     link: "#",
+    github: "https://github.com/DivyeBhatnagar",
+    tech: ["Python", "Machine Learning", "FastAPI"],
   },
   {
     title: "Campus Crypto",
@@ -97,6 +101,8 @@ export const PROJECTS = [
       "A platform designed to help students understand cryptocurrency and blockchain technologies.",
     image: "/projects/project-3.png",
     link: "#",
+    github: "https://github.com/DivyeBhatnagar",
+    tech: ["Next.js", "TypeScript", "MongoDB"],
   },
   {
     title: "Local LLM Backend",
@@ -104,6 +110,38 @@ export const PROJECTS = [
       "A backend system designed to run and manage local large language models efficiently.",
     image: "/projects/project-1.png",
     link: "#",
+    github: "https://github.com/DivyeBhatnagar",
+    tech: ["Python", "PyTorch", "Flask"],
+  },
+] as const;
+
+export const STATS = [
+  { label: "Projects Built", value: "20+" },
+  { label: "Technologies Used", value: "15+" },
+  { label: "GitHub Repositories", value: "25+" },
+  { label: "AI Experiments", value: "10+" },
+] as const;
+
+export const JOURNEY = [
+  {
+    title: "Started programming",
+    description: "Wrote my first lines of code and discovered my passion for software development.",
+    year: "2021",
+  },
+  {
+    title: "Exploring AI and Machine Learning",
+    description: "Deep dive into artificial intelligence, neural networks, and Python-based frameworks.",
+    year: "2022",
+  },
+  {
+    title: "Building full stack applications",
+    description: "Mastered modern web development with React, Next.js, and scaling backend architectures.",
+    year: "2023",
+  },
+  {
+    title: "Developing intelligent systems",
+    description: "Combining LLMs with modern web apps to build autonomous tools and automation systems.",
+    year: "Present",
   },
 ] as const;
 
